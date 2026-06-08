@@ -106,31 +106,6 @@ The **Light Mode / Dark Mode** toggle in the top-right corner switches the appli
 
 ---
 
-## Building from Source
-
-**Requirements:** Python 3.11+, and the packages listed in `requirements.txt`.
-
-```bash
-pip install -r requirements.txt
-```
-
-To run without building:
-
-```bash
-python src/hdr_check_gui.py
-```
-
-To build the standalone executable (place `assets/icon.ico` first):
-
-```bash
-cd build
-pyinstaller NHNBHDRAnalyser.spec
-```
-
-The compiled exe will be at `build/dist/NHNBHDRAnalyser.exe`. Bundle it with `ffmpeg.exe`, `ffprobe.exe`, and the FFmpeg DLLs for distribution.
-
----
-
 ## Third-Party Software
 
 This project uses [FFmpeg](https://ffmpeg.org) for video analysis and re-encoding. Release packages include FFmpeg binaries licensed under the GNU General Public License v2 or later. See [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md) for details.
