@@ -1,0 +1,14 @@
+# Release package — distributed via GitHub Releases, not committed to repo
+release/
+
+# PyInstaller build artifacts (pyinstaller runs from build/, so outputs to build/build/ and build/dist/)
+build/build/
+build/dist/
+build/__pycache__/
+build/*.toc
+build/*.pkg
+build/*.manifest
+build/*.spec.bak
+__pycache__/
+*.pyc
+*.pyo
