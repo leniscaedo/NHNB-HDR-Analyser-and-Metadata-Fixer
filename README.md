@@ -85,7 +85,7 @@ A progress percentage is shown in the status area during encoding. When encoding
 
 ### Interrupting an Encode
 
-Closing the Fix Metadata dialog mid-encode will kill the ffmpeg process immediately. If you try to close the main window while an encode is running, you will be prompted to confirm; choosing to proceed kills the encode and any partial output file will remain on disk for manual cleanup.
+Closing the Fix Metadata dialog mid-encode will kill the ffmpeg process immediately. If you close either window while an encode is running will kill the process, stopping the encode and any partial output file will remain on disk for manual cleanup.
 
 ---
 
