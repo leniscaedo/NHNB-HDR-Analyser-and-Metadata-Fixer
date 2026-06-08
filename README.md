@@ -17,6 +17,8 @@ Load a file using one of two methods:
 - **Drag and drop** a video file onto the drop zone at the top of the window.
 - Click **Browse…** to open a file picker. Supported formats include `.mp4`, `.mkv`, `.mov`, `.avi`, `.ts`, `.mts`, `.m2ts`, `.webm`, `.hevc`, and `.mxf`.
 
+<img width="910" height="230" alt="image" src="https://github.com/user-attachments/assets/7888c969-0f28-4767-9282-8ab636383914" />
+
 Once a file is selected, click **Analyse**. ffprobe runs in the background — the button will read "Analysing…" while it works. Results appear in the Report tab when complete.
 
 ---
@@ -27,9 +29,15 @@ Results are grouped into four sections:
 
 **FILE** — Container format, duration, file size, and overall bitrate.
 
+<img width="412" height="165" alt="image" src="https://github.com/user-attachments/assets/d66885ce-af9e-455e-bcbe-077b8d9d2b6a" />
+
 **VIDEO STREAM** — Codec, profile, resolution, pixel format, bit depth, color range, color primaries, transfer function (TRC), matrix coefficients, and frame rate.
 
+<img width="478" height="341" alt="image" src="https://github.com/user-attachments/assets/95d73088-f6ad-4036-a786-ade0aade5db0" />
+
 **HDR SIDE-DATA** — Whether SMPTE ST 2086 Mastering Display (MDCV) and Content Light Level (CLL / MaxCLL / MaxFALL) metadata are present, and their values if found. Any additional side data (e.g. Dolby Vision) is shown here as well.
+
+<img width="840" height="122" alt="image" src="https://github.com/user-attachments/assets/b5c4cdea-2910-4c42-87e6-42e8eb7cb971" />
 
 **HDR Compatibility Diagnosis** — Each check appears as a colored badge:
 - **PASS** (green) — criterion met.
@@ -37,6 +45,9 @@ Results are grouped into four sections:
 - **FAIL** (red) — will likely prevent HDR recognition.
 
 A verdict card at the bottom summarizes the overall result.
+
+<img width="867" height="421" alt="image" src="https://github.com/user-attachments/assets/c443d9f4-adbb-44fe-9ae3-ac65229368b4" />
+<img width="863" height="384" alt="image" src="https://github.com/user-attachments/assets/0e5dbd8f-805d-441e-8042-c07316fbf981" />
 
 ### What Platforms Require for HDR Recognition
 
